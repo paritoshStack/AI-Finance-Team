@@ -6,10 +6,6 @@ A Claude skill that simulates a 4-person finance department — Revenue Manager,
 Raw data  →  Revenue Manager  →  Finance Controller  →  FP&A Manager  →  CFO Advisor  →  Decision memo
 ```
 
-## Status
-
-This release ships the coordinator (`SKILL.md`) and the first role in full (`roles/revenue_manager.md`), plus the schemas and folder contracts the whole chain depends on. `finance_controller.md`, `fpa_manager.md`, and `cfo_advisor.md` are not yet written — see [`templates/role_file_template.md`](templates/role_file_template.md) to author them, or ask Claude to draft them following the same pattern as the Revenue Manager file.
-
 ## Why structured handoffs
 
 Most multi-step prompt chains pass a plain-text summary from one step to the next and hope the next step reads it correctly. This workflow instead defines:
