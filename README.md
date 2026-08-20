@@ -24,21 +24,3 @@ This is what keeps a 4-step chain from silently drifting — by step 4, small un
 4. Ask Claude to "run the finance team workflow" (or invoke this skill directly).
 
 No sample data ships with this skill — bring your own `customer_data.csv`, `subscription_data.csv`, `pricing_plans.csv`, `transactions.csv`, and `expenses.csv`.
-
-## Folder structure
-
-See `SKILL.md` → "Folder structure" for the full layout the coordinator expects.
-
-## Extending
-
-To complete the team, write the three remaining role files using `templates/role_file_template.md` and the pattern in `roles/revenue_manager.md`:
-
-- `roles/finance_controller.md` — validates transactions/expenses, reconciles against Revenue Manager's MRR, computes cash position and burn
-- `roles/fpa_manager.md` — builds the 12-month forecast (base/upside/downside) from the Controller's and Revenue Manager's outputs
-- `roles/cfo_advisor.md` — synthesizes everything into one recommendation with a stated position
-
-Keep file paths in each new role file in sync with the corresponding Step in `SKILL.md`.
-
-## License
-
-MIT — use, adapt, and share freely.
