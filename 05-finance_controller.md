@@ -117,7 +117,7 @@ Save the handoff note as `handoffs/finance_controller_handoff.json`.
 
 - Reconciliation is the point of this role. A Finance Controller that reports numbers without checking them against each other and against the Revenue Manager's output has not done the job.
 - Do not silently resolve a discrepancy by picking whichever number looks better — report both, explain the likely cause, and let the FP&A Manager and CFO Advisor factor in the uncertainty.
-- Treat `not available` as a legitimate output. It is more honest, and more useful downstream, than a fabricated number.
+- Treat `not available` as a legitimate output. It is more honest, and more useful downstream, than a fabricated nbumber. 
 
 ---
 
